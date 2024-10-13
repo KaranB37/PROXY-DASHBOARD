@@ -27,14 +27,14 @@ import { Iconify } from 'src/components/iconify';
 import { Walktour, useWalktour } from 'src/components/walktour';
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
-import { EcommerceWelcome } from '../../../overview/e-commerce/ecommerce-welcome';
-import { EcommerceNewProducts } from '../../../overview/e-commerce/ecommerce-new-products';
-import { EcommerceYearlySales } from '../../../overview/e-commerce/ecommerce-yearly-sales';
-import { EcommerceBestSalesman } from '../../../overview/e-commerce/ecommerce-best-salesman';
-import { EcommerceSaleByGender } from '../../../overview/e-commerce/ecommerce-sale-by-gender';
-import { EcommerceSalesOverview } from '../../../overview/e-commerce/ecommerce-sales-overview';
-import { EcommerceWidgetSummary } from '../../../overview/e-commerce/ecommerce-widget-summary';
-import { EcommerceLatestProducts } from '../../../overview/e-commerce/ecommerce-latest-products';
+import { EcommerceWelcome } from 'src/sections/overview/e-commerce/ecommerce-welcome';
+import { EcommerceNewProducts } from 'src/sections/overview/e-commerce/ecommerce-new-products';
+import { EcommerceYearlySales } from 'src/sections/overview/e-commerce/ecommerce-yearly-sales';
+import { EcommerceBestSalesman } from 'src/sections/overview/e-commerce/ecommerce-best-salesman';
+import { EcommerceSaleByGender } from 'src/sections/overview/e-commerce/ecommerce-sale-by-gender';
+import { EcommerceSalesOverview } from 'src/sections/overview/e-commerce/ecommerce-sales-overview';
+import { EcommerceWidgetSummary } from 'src/sections/overview/e-commerce/ecommerce-widget-summary';
+import { EcommerceLatestProducts } from 'src/sections/overview/e-commerce/ecommerce-latest-products';
 import { EcommerceCurrentBalance } from 'src/sections/overview/e-commerce/ecommerce-current-balance';
 
 import { ComponentHero } from '../../component-hero';
