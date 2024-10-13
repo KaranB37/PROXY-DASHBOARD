@@ -9,6 +9,8 @@ export const metadata = { title: `Product shop - ${CONFIG.appName}` };
 
 export default async function Page() {
   const { products } = await getProducts();
-
+  if (!products) {
+    throw new Error('No products found');
+  }
   return <ProductShopView products={products} />;
 }
