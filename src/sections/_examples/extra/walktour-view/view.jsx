@@ -23,19 +23,21 @@ import {
   _ecommerceLatestProducts,
 } from 'src/_mock';
 
-import { Iconify } from 'src/components/iconify';
-import { Walktour, useWalktour } from 'src/components/walktour';
-import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+import { Iconify } from '../../../../components/iconify';
+import { Walktour, useWalktour } from '../../../../components/walktour';
+import { CustomBreadcrumbs } from '../../../../components/custom-breadcrumbs';
 
-import { EcommerceWelcome } from 'src/sections/overview/history/ecommerce-welcome';
-import { EcommerceNewProducts } from 'src/sections/overview/history/ecommerce-new-products';
-import { EcommerceYearlySales } from 'src/sections/overview/history/ecommerce-yearly-sales';
-import { EcommerceBestSalesman } from 'src/sections/overview/history/ecommerce-best-salesman';
-import { EcommerceSaleByGender } from 'src/sections/overview/history/ecommerce-sale-by-gender';
-import { EcommerceSalesOverview } from 'src/sections/overview/history/ecommerce-sales-overview';
-import { EcommerceWidgetSummary } from 'src/sections/overview/history/ecommerce-widget-summary';
-import { EcommerceLatestProducts } from 'src/sections/overview/history/ecommerce-latest-products';
-import { EcommerceCurrentBalance } from 'src/sections/overview/history/ecommerce-current-balance';
+import { EcommerceWelcome } from '../../../../sections/overview/e-commerce/ecommerce-welcome';
+import { EcommerceNewProducts } from '../../../../sections/overview/e-commerce/ecommerce-new-products';
+import { EcommerceYearlySales } from '../../../../sections/overview/e-commerce/ecommerce-yearly-sales';
+
+import { EcommerceBestSalesman } from '../../../../sections/overview/e-commerce/ecommerce-best-salesman';
+import { EcommerceSaleByGender } from '../../../../sections/overview/e-commerce/ecommerce-sale-by-gender';
+import { EcommerceSalesOverview } from '../../../../sections/overview/history/ecommerce-sales-overview';
+import { EcommerceWidgetSummary } from '../../../../sections/overview/history/ecommerce-widget-summary';
+import { EcommerceLatestProducts } from '../../../../sections/overview/history/ecommerce-latest-products';
+import { EcommerceCurrentBalance } from '../../../../sections/overview/history/ecommerce-current-balance';
+import { EcommerceCurrentBalance } from '../../../../sections';
 
 import { ComponentHero } from '../../component-hero';
 
