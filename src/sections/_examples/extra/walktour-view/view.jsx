@@ -37,7 +37,6 @@ import { EcommerceSalesOverview } from '../../../../sections/overview/history/ec
 import { EcommerceWidgetSummary } from '../../../../sections/overview/history/ecommerce-widget-summary';
 import { EcommerceLatestProducts } from '../../../../sections/overview/history/ecommerce-latest-products';
 import { EcommerceCurrentBalance } from '../../../../sections/overview/history/ecommerce-current-balance';
-import { EcommerceCurrentBalance } from '../../../../sections';
 
 import { ComponentHero } from '../../component-hero';
 
