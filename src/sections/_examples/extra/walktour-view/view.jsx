@@ -23,20 +23,19 @@ import {
   _ecommerceLatestProducts,
 } from 'src/_mock';
 
-import { Iconify } from '../../../../components/iconify';
-import { Walktour, useWalktour } from '../../../../components/walktour';
-import { CustomBreadcrumbs } from '../../../../components/custom-breadcrumbs';
+import { Iconify } from 'src/components/iconify';
+import { Walktour, useWalktour } from 'src/components/walktour';
+import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
-import { EcommerceWelcome } from '../../../../sections/overview/e-commerce/ecommerce-welcome';
-import { EcommerceNewProducts } from '../../../../sections/overview/e-commerce/ecommerce-new-products';
-import { EcommerceYearlySales } from '../../../../sections/overview/e-commerce/ecommerce-yearly-sales';
-
-import { EcommerceBestSalesman } from '../../../../sections/overview/e-commerce/ecommerce-best-salesman';
-import { EcommerceSaleByGender } from '../../../../sections/overview/e-commerce/ecommerce-sale-by-gender';
-import { EcommerceSalesOverview } from '../../../../sections/overview/history/ecommerce-sales-overview';
-import { EcommerceWidgetSummary } from '../../../../sections/overview/history/ecommerce-widget-summary';
-import { EcommerceLatestProducts } from '../../../../sections/overview/history/ecommerce-latest-products';
-import { EcommerceCurrentBalance } from '../../../../sections/overview/history/ecommerce-current-balance';
+import { EcommerceWelcome } from '../../../..//sections/overview/e-commerce/ecommerce-welcome';
+import { EcommerceNewProducts } from '../../../..//sections/overview/e-commerce/ecommerce-new-products';
+import { EcommerceYearlySales } from '../../../..//sections/overview/e-commerce/ecommerce-yearly-sales';
+import { EcommerceBestSalesman } from '../../../..//sections/overview/e-commerce/ecommerce-best-salesman';
+import { EcommerceSaleByGender } from '../../../..//sections/overview/e-commerce/ecommerce-sale-by-gender';
+import { EcommerceSalesOverview } from '../../../..//sections/overview/e-commerce/ecommerce-sales-overview';
+import { EcommerceWidgetSummary } from '../../../..//sections/overview/e-commerce/ecommerce-widget-summary';
+import { EcommerceLatestProducts } from '../../../..//sections/overview/e-commerce/ecommerce-latest-products';
+import { EcommerceCurrentBalance } from 'src/sections/overview/e-commerce/ecommerce-current-balance';
 
 import { ComponentHero } from '../../component-hero';
 
