@@ -3,6 +3,7 @@
 import Button from '@mui/material/Button';
 import { useTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Unstable_Grid2';
+import { Typography } from '@mui/material';
 
 import { DashboardContent } from 'src/layouts/dashboard';
 import { MotivationIllustration } from 'src/assets/illustrations';
@@ -24,7 +25,6 @@ import { EcommerceSalesOverview } from '../ecommerce-sales-overview';
 import { EcommerceWidgetSummary } from '../ecommerce-widget-summary';
 import { EcommerceLatestProducts } from '../ecommerce-latest-products';
 import { EcommerceCurrentBalance } from '../ecommerce-current-balance';
-import { Typography } from '@mui/material';
 import { EcommerceSalesGraph } from '../ecommerce-sales-graph';
 
 // ----------------------------------------------------------------------
@@ -47,55 +47,6 @@ export function OverviewEcommerceView() {
         </Grid>
 
         {/* Existing components can remain here */}
-        {/* <Grid xs={12} md={6} lg={4}>
-          <EcommerceYearlySales
-            title="Sales"
-            chart={{
-              categories: [
-                'Jan',
-                'Feb',
-                'Mar',
-                'Apr',
-                'May',
-                'Jun',
-                'Jul',
-                'Aug',
-                'Sep',
-                'Oct',
-                'Nov',
-                'Dec',
-              ],
-              series: [
-                {
-                  name: '2022',
-                  data: [
-                    {
-                      name: 'Total Revenue',
-                      data: [10, 41, 35, 51, 49, 62, 69, 91, 148, 35, 51, 49],
-                    },
-                    {
-                      name: 'Total Orders',
-                      data: [10, 34, 13, 56, 77, 88, 99, 77, 45, 13, 56, 77],
-                    },
-                  ],
-                },
-                {
-                  name: '2023',
-                  data: [
-                    {
-                      name: 'Total Revenue',
-                      data: [51, 35, 41, 10, 91, 69, 62, 148, 91, 69, 62, 49],
-                    },
-                    {
-                      name: 'Total Orders',
-                      data: [56, 13, 34, 10, 77, 99, 88, 45, 77, 99, 88, 77],
-                    },
-                  ],
-                },
-              ],
-            }}
-          />
-        </Grid> */}
       </Grid>
     </DashboardContent>
   );
